@@ -1,0 +1,233 @@
+body{
+    background-color: rgba(241, 241, 241, 0.5);
+}
+.text-base {
+    color: #ed502e !important;
+}
+.bg-base {
+    background-color: #ed502e !important;
+}
+.nav-link:hover{
+    color: #ed502e !important;
+}
+.text-base-blue{
+    color: #0f2f57;
+}
+.my-line{
+    width: 120px;
+    height: 1px;
+}
+.bg-sec{
+    background-color: #f2f9fd;
+}
+.about-btn{
+    color: #ed502e;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #ed502e;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 12px 32px;
+    margin-top: 6px;
+    transition: 0.3s;
+}
+.about-btn:hover{
+    background-color: #ed502e;
+    color: #fff;
+}
+.text-hover{
+    text-decoration: none;
+    font-size: 18px;
+}
+.text-hover :hover{
+    color: #ed502e;
+}
+/* start header */
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../img/header-slide-1.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/* end header */
+
+/* start video */
+.bg-video{
+    background-image: url(../img/video-bac.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* end video */
+
+/* start services */
+.services-icon-box{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: 0.3 s;
+    box-shadow: #f9c6bb -8px -8px;
+}
+.services-item:hover{
+    background-color: #ed502e !important;
+    transition: 0.6s !important;
+    color: #fff !important;
+}
+.services-item:hover .services-icon-box{
+    background-color: #fff !important;
+    color: #ed502e !important;
+    box-shadow: #ff7354 -8px -8px;
+}
+/* end services */
+
+/* start testimonials  */
+.member-image{
+position: absolute;
+top: 20px;
+left: -40px;
+}
+.my-btn-slider{
+    background-color: #ffffff !important;
+    width: 12px !important;
+    height: 12px!important;
+    border-radius: 50%;
+    border: 1px solid #ed502e !important;
+}
+.my-btn-slider.active{
+    background-color: #ed502e !important;
+}
+.carousel-indicators{
+    bottom: -50px !important;
+}
+/* end testimonials  */
+
+/* start action */
+.action-btn{
+    background-color: #071527;
+    color: #fff;
+    border: 2px solid #ed502e;
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.action-btn:hover{
+background-color: #ed502e;
+}
+/* end action */
+
+/* start portfolio */
+.portfolio-hover{
+    top: 100%;
+    border-radius: 7px;
+}
+.portfolio-hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    width: 86% !important;
+    transition-duration: 0.5s;
+}
+.portfolio-item:hover .portfolio-hover{
+    top: 65%;
+}
+/* end portfolio */
+
+/* start team */
+.team-hover1{
+    top: 0;
+    left: -16.5%;
+    height: 100%;
+    width: 16.5%;
+    background-color: rgba(11, 35, 65, 0.5) ;
+    z-index: 100;
+    transition: 0.4s;
+}
+.team-hover-2{
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(11, 35, 65, 0.9) 0%, rgba(11, 35, 65, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    transition: 0.4s;
+}
+.team-item:hover .team-hover1{
+    left: 0 !important;
+}
+.team-item:hover .team-hover-2{
+    top: 0;
+}
+.team-item img{
+   transition: 0.4s;
+}
+.team-item:hover img{
+    transform: scale(1.1);
+}
+/* end team */
+
+/* start contact */
+.contact-icon-box{
+    width: 52px;
+    height: 52px;
+    padding: 8px;
+    border: 2px dotted #fbdad2;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end contact */
+
+/* start footer */
+.footer-multi{
+    border-top: 5px solid #ed502e;
+}
+.footer-icon-box{
+    display: inline-block;
+    background-color: #0f2f57;
+    width: 36px;
+    height: 36px;
+    transition: 0.4s;
+    margin-right: 8px;
+}
+.footer-icon-box:hover{
+    background-color: #ed502e;
+}
+.list-hover{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.list-hover :hover{
+    color: #ed502e;
+}
+.footer-bottom{
+    border-top: 1px solid #0f2f57;
+}
+/* end footer */
+
+/* responsive */
+/* Medium devices (tablets, less than 992px) 768-991 */
+@media (max-width: 991.98px){}
+
+/*Small devices (landscape, less than 768px) 576-767 */
+@media (max-width: 767.98px){
+.bg-video{
+    min-height: 300px;
+}
+
+}
+
+/* X-small devices (portrait, less than 576px) 0-575 */
+@media (max-width: 575.98px){
+    .bg-video{
+        min-height: 250px;
+    }
+}
+
+/* XX-large devices (larger desktops) */
+
+
+
+
